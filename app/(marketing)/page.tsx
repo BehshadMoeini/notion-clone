@@ -1,0 +1,19 @@
+import React from "react";
+
+import Heroes from "./_components/heroes";
+import Heading from "./_components/heading";
+import Footer from "./_components/footer";
+
+const MarketingPage = () => {
+  return (
+    <div className="min-h-full flex flex-col">
+      <div className="flex px-6 pb-10 flex-col items-center justify-center md:justify-start text-center gap-y-8 flex-1">
+        <Heading />
+        <Heroes />
+      </div>
+      <Footer />
+    </div>
+  );
+};
+
+export default MarketingPage;
